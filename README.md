@@ -4,7 +4,6 @@
 
 # Group infomation
 Member: @Bobibobibu Bobby Lee Kin Chung   University No.: 3035789784   Contact: u3578978@connect.hku.hk
-
         @fung2682 Jeffrey Fung Hon Yin   University No.: 3035784497   Contact: fung2682@connect.hku.hk
        
        
