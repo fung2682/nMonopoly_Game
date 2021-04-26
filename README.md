@@ -38,10 +38,13 @@ A player wins when:
 # Feature
 - ASCII art title screen
 - Save an interrupted game to continue later
-- Remake Propeties' names and Chance and Decision cards to have the theme of HKU
 - Some output is animated
 - Optional difficulty can be set to affect the starting money
 - Leaderboard system to record the score when the user wins, grouped by the difficulty
+
+# Creativity and Originality
+- Renamed original Monopoly propeties with name of buildings in HKU.
+- Chance and Decision cards are self-designed with 10 scenarios in the HKU campus.
 
 # Coding Elements Implementation
 - Generation of random game sets or events: Dice rolls and Chance and Decision events are random
