@@ -28,6 +28,7 @@ When a player's piece land on the **Go to Jail** or affected by some specific ev
 ## Properties
 When a player's piece land on an unowned property space, they can choose to buy the property for its listed price. If the property is owned, they will pay the owner a given rent.
 If the player owns the property they land on and all other properties of the group, they can choose to develop it by building a house on it for $100. Each house built will double the rent of the property. Up to 5 houses can be built on one propety.
+When a player bankrupts, all their propeties become unowned, but the number of house(s) is unchanged, and the propeties can be bought by other players again with original price.
 
 ## Winning
 A player wins when:
@@ -50,3 +51,8 @@ A player wins when:
 - Program codes in multiple files: separate the parts of menu and core game to two different files, with core game becomes a library, also extract some function (e.g. token, interface control, constant) as separated libraries and copypasta as separated text file to make the main code looks cleaner and facilitate maintainence.
 - Proper indentation and naming styles: Done
 - In-code documentation: Done
+
+# Known Issue
+- `system("CLS")` does not works in Linux system, lead to error `sh: 1: CLS: not found`. This is only a visual bug and does not affect gameplay.
+- Special characters in token may not be displayed properly in some command interface. This is only a visual bug and does not affect gameplay.
+- Occasionally, error `terminated called after throwing an instance of 'std::bad_alloc'`appears and crashes the game after creating a new game. The game can be recovered by loading the save file.
