@@ -62,21 +62,27 @@ A player wins when:
 # Sample Output
 
 Menu:
+
 ![image](https://user-images.githubusercontent.com/51908354/116116523-d3743380-a6ed-11eb-803b-d0403ff57e5d.png)
 
 Start Game:
+
 ![image](https://user-images.githubusercontent.com/51908354/116116241-82fcd600-a6ed-11eb-8497-2262a9ada534.png)
 
 Load Game:
+
 ![image](https://user-images.githubusercontent.com/51908354/116116309-98720000-a6ed-11eb-9cc6-97ea1eafc416.png)
 
 Gameplay:
+
 ![image](https://user-images.githubusercontent.com/51908354/116116384-ad4e9380-a6ed-11eb-8b48-5db201f554ee.png)
 
 Leaderboard (Empty):
+
 ![image](https://user-images.githubusercontent.com/51908354/116116484-c9523500-a6ed-11eb-8dad-986ef77f57c2.png)
 
 Endgame:
+
 ![image](https://user-images.githubusercontent.com/51908354/116116840-2e0d8f80-a6ee-11eb-990c-1f064e669f06.png)
 
 # Known Issue
