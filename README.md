@@ -57,7 +57,7 @@ A player wins when:
 - In-code documentation: Done
 
 # Compile Guide
-- `g++ -std=c++11 -pedantic-errors main_menu.cpp core_game.cpp interface.cpp token.cpp -o nMonolopy
+- `g++ -std=c++11 -pedantic-errors main_menu.cpp core_game.cpp interface.cpp token.cpp -o nMonolopy`
 
 # Sample Output
 
