@@ -41,6 +41,7 @@ A player wins when:
 - Some output is animated
 - Optional difficulty can be set to affect the starting money
 - Leaderboard system to record the score when the user wins, grouped by the difficulty
+- Tolerating wrong input, users will be prompted to re-enter the input if it is out-of-range or has the wrong type
 
 # Creativity and Originality
 - Renamed original Monopoly propeties with name of buildings in HKU.
@@ -54,6 +55,29 @@ A player wins when:
 - Program codes in multiple files: separate the parts of menu and core game to two different files, with core game becomes a library, also extract some function (e.g. token, interface control, constant) as separated libraries and copypasta as separated text file to make the main code looks cleaner and facilitate maintainence.
 - Proper indentation and naming styles: Done
 - In-code documentation: Done
+
+# Compile Guide
+- `g++ -std=c++11 -pedantic-errors main_menu.cpp core_game.cpp interface.cpp token.cpp -o nMonolopy
+
+# Sample Output
+
+Menu:
+![image](https://user-images.githubusercontent.com/51908354/116116523-d3743380-a6ed-11eb-803b-d0403ff57e5d.png)
+
+Start Game:
+![image](https://user-images.githubusercontent.com/51908354/116116241-82fcd600-a6ed-11eb-8497-2262a9ada534.png)
+
+Load Game:
+![image](https://user-images.githubusercontent.com/51908354/116116309-98720000-a6ed-11eb-9cc6-97ea1eafc416.png)
+
+Gameplay:
+![image](https://user-images.githubusercontent.com/51908354/116116384-ad4e9380-a6ed-11eb-8b48-5db201f554ee.png)
+
+Leaderboard (Empty):
+![image](https://user-images.githubusercontent.com/51908354/116116484-c9523500-a6ed-11eb-8dad-986ef77f57c2.png)
+
+Endgame:
+![image](https://user-images.githubusercontent.com/51908354/116116840-2e0d8f80-a6ee-11eb-990c-1f064e669f06.png)
 
 # Known Issue
 - `system("CLS")` does not works in Linux system, lead to error `sh: 1: CLS: not found`. This is only a visual bug and does not affect gameplay.
